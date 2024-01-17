@@ -8,7 +8,7 @@ body {
 
 html {
 	font-size: 12px;
-	background-color: #a9a9a9;
+	/* background-color: #a9a9a9; */
 }
 
 body {
@@ -23,8 +23,9 @@ h2,
 h3,
 li {
 	font-family: 'Sonsie One', cursive;
-	color: #b70a0a;
+	color: hsl(20, 7%, 25%);
 	font-size: large;
+	margin-left: 50px;
 }
 
 p,
@@ -54,7 +55,7 @@ h3 {
 p,
 li {
 	font-size: 14px;
-	line-height: 1.5;
+	line-height: 1;
 }
 
 /* || header layout */
@@ -71,12 +72,12 @@ nav {
 	height: 30px;
 	background-color: #331eba;
 	display: flex;
-	margin-bottom: 10px;
+	margin-bottom: 5%;
 }
 
 nav ul {
-	padding: 0;
-	list-style-type: none;
+	padding: 20;
+	list-style-type: lower-roman;
 	flex: 2;
 	display: flex;
 }
@@ -84,7 +85,7 @@ nav ul {
 nav li {
 	display: inline;
 	text-align: center;
-	font-size: 2rem;
+	font-size: large;
 	flex: 1;
 }
 
@@ -120,7 +121,7 @@ input[type='submit'] {
 	margin-left: 1rem;
 	background: #14100700;
 	border: 10;
-	color: white;
+	color: rgb(100, 131, 22);
 }
 
 /* || main layout */
@@ -146,3 +147,10 @@ aside li {
 footer {
 	margin-top: 10px;
 }
+
+/* menu,
+ul {
+	display: flex;
+	/* list-style: none; 
+	padding: 0;
+} */
